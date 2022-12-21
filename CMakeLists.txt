@@ -1,0 +1,6 @@
+﻿cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 20)
+find_package(Catch2 REQUIRED)
+project(homework)
+add_executable(homework "test_main.cpp" "list.h")
+target_link_libraries(homework PRIVATE Catch2::Catch2)
