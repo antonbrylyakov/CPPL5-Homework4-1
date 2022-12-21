@@ -18,7 +18,7 @@ TEST_CASE("Cleared list is empty", "[list]") {
 
 // Тест-кейсы на добавление элементов разными способами
 
-TEST_CASE("Correct number of items #1", "[list]") {
+TEST_CASE("Correct number of items", "[list]") {
 
 	SECTION("Push back 2 times")
 	{
